@@ -1,0 +1,77 @@
+import type { MessageSchema } from './en'
+
+const es: MessageSchema = {
+  nav: {
+    label: 'Principal',
+    home: 'Inicio',
+    analyzer: 'Analizador de gastos',
+    language: 'Idioma',
+  },
+  home: {
+    totalBalance: 'Saldo total',
+    hideBalance: 'Ocultar saldo',
+    showBalance: 'Mostrar saldo',
+    transactions: 'Movimientos',
+    empty: 'Ningún movimiento coincide con los filtros.',
+    filters: {
+      title: 'Filtros',
+      from: 'Desde',
+      to: 'Hasta',
+      type: 'Tipo',
+      all: 'Todos',
+      deposits: 'Ingresos',
+      withdrawals: 'Gastos',
+      min: 'Mín. (€)',
+      max: 'Máx. (€)',
+      reset: 'Restablecer',
+    },
+  },
+  analyzer: {
+    title: 'Analizador de gastos',
+    subtitle: 'Ingresos, gastos y saldo por mes',
+    totalIncome: 'Ingresos totales',
+    totalExpenses: 'Gastos totales',
+    avgExpenses: 'Gasto mensual medio',
+    highestSpend: 'Mes de mayor gasto',
+    chartAlt:
+      'Gráfico de barras de ingresos y gastos mensuales con una curva del saldo a fin de mes',
+  },
+  notFound: {
+    title: 'Página no encontrada',
+    message: 'No hemos encontrado la página que buscas.',
+    backHome: 'Volver al inicio',
+  },
+  chart: {
+    balance: 'Saldo a fin de mes',
+    income: 'Ingresos',
+    expenses: 'Gastos',
+  },
+  tx: {
+    salary: 'Nómina – Acme Corp',
+    rent: 'Alquiler – {month}',
+    savings: 'Transferencia a ahorros',
+    spotify: 'Spotify',
+    netflix: 'Netflix',
+    electricity: 'Iberdrola – Electricidad',
+    gym: 'Cuota del gimnasio',
+    vodafone: 'Vodafone',
+    mercadona: 'Mercadona',
+    restaurant: 'Restaurante',
+    amazon: 'Amazon',
+    zara: 'Zara',
+    pharmacy: 'Farmacia',
+    cafe: 'Café Central',
+    taxi: 'Taxi',
+    cinema: 'Cine',
+    fuel: 'Gasolina – Repsol',
+    bookshop: 'Librería',
+    freelance: 'Factura freelance',
+    taxRefund: 'Devolución de impuestos',
+    holiday: 'Vacaciones de verano',
+    transferFromAna: 'Transferencia de Ana',
+    metro: 'Abono mensual de metro',
+    laMar: 'Restaurante La Mar',
+  },
+}
+
+export default es
